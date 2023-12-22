@@ -1,0 +1,60 @@
+.todoItem {
+  /* display: flex; */
+  /* align-items: self-start; */
+  justify-content: space-between;
+  max-width: 900px;
+}
+
+.todoItem .todoItemUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* .todoItemUl > li:first-child, .todoItemUl > li:last-child {
+  width: 10%;
+} */
+.todoItem del {
+  text-decoration-thickness: 2px;
+  color: #ffb6c1;
+
+  height: 50px;
+}
+.todoItem ul li {
+  color: white;
+}
+.todoTask {
+  width: 30%;
+}
+.todoItem del span {
+  color: white;
+}
+.todoItem .dust img {
+  height: 40px;
+  width: 40px;
+}
+.todoItem li {
+  font-size: 2rem;
+  text-align: left;
+}
+li button {
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: white;
+  color: white;
+}
+.notClicked {
+  color: black;
+  /* background-color: w; */
+}
+.updateBtn {
+  padding: 0;
+  background-color: red;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
